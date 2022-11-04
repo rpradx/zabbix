@@ -1,0 +1,1346 @@
+{
+    "zabbix_export": {
+        "version": "6.0",
+        "date": "2022-11-03T22:01:29Z",
+        "groups": [
+            {
+                "uuid": "051092162e3e468289084985b88a1ac0",
+                "name": "Monitoramento WEB"
+            }
+        ],
+        "hosts": [
+            {
+                "host": "Aliexpress",
+                "name": "Aliexpress",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "59.82.29.153",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Alura",
+                "name": "Alura",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "104.26.5.131",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Amazom",
+                "name": "Amazom",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "72.21.203.171",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Americanas",
+                "name": "Americanas",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "23.219.82.33",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "BancoNU",
+                "name": "BancoNU",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "108.139.134.87",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Banggood",
+                "name": "Banggood",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "173.222.100.26",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Bradesco",
+                "name": "Bradesco",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "96.7.74.8",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Buscape",
+                "name": "Buscape",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "108.139.113.104",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "C6",
+                "name": "C6",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "162.159.153.238",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Caixa",
+                "name": "Caixa",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "200.201.166.253",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "DisneyPlus",
+                "name": "DisneyPlus",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "34.218.145.143",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Enjoei",
+                "name": "Enjoei",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "172.64.145.60",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Facebook",
+                "name": "Facebook",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "157.240.216.16",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Gmail",
+                "name": "Gmail",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "142.250.78.197",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Google",
+                "name": "Google",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "142.250.79.35",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "HBOMAX",
+                "name": "HBOMAX",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "184.28.190.32",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Hotmart",
+                "name": "Hotmart",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "108.139.95.31",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Instagram",
+                "name": "Instagram",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "157.240.216.16",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Inter",
+                "name": "Inter",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "108.139.119.53",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Itau",
+                "name": "Itau",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "104.110.243.8",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Magalu",
+                "name": "Magalu",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "108.139.134.93",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "MercadoLivre",
+                "name": "MercadoLivre",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "108.139.95.43",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "MercadoPago",
+                "name": "MercadoPago",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "108.139.119.26",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Netflix",
+                "name": "Netflix",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "52.3.144.142",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "OLX",
+                "name": "OLX",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "108.139.95.115",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "PontoFrio",
+                "name": "PontoFrio",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "184.28.190.51",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "PrimeVideo",
+                "name": "PrimeVideo",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "108.139.134.67",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Santander",
+                "name": "Santander",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "2.20.88.75",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Sebrae",
+                "name": "Sebrae",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "34.96.102.38",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Shoppe",
+                "name": "Shoppe",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "148.153.104.4",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Submarino",
+                "name": "Submarino",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "23.219.82.208",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Telegram",
+                "name": "Telegram",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "149.154.167.99",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Twitter",
+                "name": "Twitter",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "104.244.42.65",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Udemy",
+                "name": "Udemy",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "104.16.66.85",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Whatsapp",
+                "name": "Whatsapp",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "157.240.216.60",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "XV",
+                "name": "XV",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "185.88.181.8",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            },
+            {
+                "host": "Youtube",
+                "name": "Youtube",
+                "templates": [
+                    {
+                        "name": "ICMP WEB"
+                    },
+                    {
+                        "name": "Template Web Monitoring"
+                    }
+                ],
+                "groups": [
+                    {
+                        "name": "Monitoramento WEB"
+                    }
+                ],
+                "interfaces": [
+                    {
+                        "ip": "142.250.218.206",
+                        "interface_ref": "if1"
+                    }
+                ],
+                "macros": [
+                    {
+                        "macro": "{$PORTAL}",
+                        "value": "Steam",
+                        "description": "Site / portal name"
+                    },
+                    {
+                        "macro": "{$SITE_URL}",
+                        "value": "https://store.steampowered.com/?l=portuguese",
+                        "description": "URL to be monitored."
+                    }
+                ],
+                "inventory_mode": "DISABLED"
+            }
+        ]
+    }
+}
